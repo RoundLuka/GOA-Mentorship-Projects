@@ -1,0 +1,12 @@
+3. შეადგინეთ წრფივი ძებნის ფსევდოკოდი
+
+Linear search
+
+arr = [], v
+i = 0
+while arr[i] != v:
+    if(arr[i] == v) then
+        return f"found {v} in {index} position"
+    if(i = n - 1) then
+        return "Not found"
+    i= 1
