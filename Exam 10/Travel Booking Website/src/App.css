@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #815e5e0e;
+    color: #333;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+#home {
+    height: 80%;
+    width: 50vw;
+
+    background-color: #33333346;
+    border: 5px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    padding: 10%;
+    gap: 10%;
+}
+
+#places {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    gap: 5%;
+}
+
+.travelCity {
+
+    font-size: 200%;
+}
+
+.cardImg {
+    width: 100%;
+    height: 100%;
+}
+
+#home p {
+    font-size: 250%;
+}
+
+#label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+}
+
+.desCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5%;
+}
+
+.desCardHeader {
+    font-size: 250%;
+    margin-top: 5%;
+}
+
+.desCardImg {
+    width: 70%;
+    height: 70%;
+    margin-top: 5%;
+}
+
+.desCardP {
+    font-size: 150%;
+    margin-top: 5%;
+}
+
+.desCardBtn {
+    width: 25%;
+    height: 5vh;
+
+    margin-top: 3%;
+    font-size-adjust: 1;
+}
+
+.bookForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+
+    border: 5px solid #333;
+
+    width: 75%;
+    align-self: center;
+    justify-self: center;
+}
+
+.bookForm input {
+    border-radius: 5%;
+    width: 50%;
+    height: 25%;
+
+    font-size-adjust: 1;
+}
+
+.bookForm button {
+    width: 50%;
+    height: 25%;
+    font-size-adjust: 1;
+
+    border-radius: 5%;
+
+}
+
+.bookingHeader {
+    font-size: 300%;
+    margin-bottom: 5%;
+}
+
+.bookingImg {
+    width: 50%;
+    height: 25%;
+
+    margin-bottom: 5%;
+}
+
+#success h2 {
+    font-size: 200%;
+}
+#success p {
+    font-size: 150%;
+    margin-top: 10%;
+}
+
+#success button {
+    width: 150%;
+    height: 10vh;
+
+    border-radius: 10%;
+    margin-top: 10%;
+
+    font-size-adjust: 1;
+}
+
+button:hover {
+    box-shadow: 15px 15px 15px gray;
+}
+
+a:hover {
+    box-shadow: 15px 15px 15px gray;
+}

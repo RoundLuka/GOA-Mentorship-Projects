@@ -8,7 +8,7 @@ def unique_substrings(string):
     length = len(string)
     result = []
     for index in range(length):
-
+        
         for index2 in range(length):
             if index == index2 and string[index] not in result:
                 result.append(string[index])

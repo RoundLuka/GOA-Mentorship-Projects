@@ -14,8 +14,6 @@ def manual_sort_assist(string):
 def minimum_window(s, t):
     length = len(s)
 
-    # if len(t) > length:
-    #     return ""
     found = False
     shortest = s
     for index in range(length):
