@@ -1,0 +1,15 @@
+Part 2: Fetch and Display Weather Data
+ჯგუფი 11-ის მოსწავლეები ასრულებთ React-ით, ხოლო დანარჩენი მოსწავლეები პირდაპირ html+css+js-ით
+Objective:
+Create a simple React app that fetches weather data from an API and displays it based on user input.
+Requirements:
+User Input: Create a text input where the user can enter a city name.
+Fetch Weather Data: Use the OpenWeatherMap API (or another public weather API) to fetch weather data for the entered city.
+Display Data: Show the following weather details:
+City Name
+Temperature (in Celsius)
+Weather Condition (e.g., "Clear", "Cloudy")
+Error Handling: Display an error message if the API request fails or if the city is not found.
+Styling: Keep it minimal but readable (CSS or inline styles).
+Bonus (Optional):
+Show an icon representing the weather condition.
